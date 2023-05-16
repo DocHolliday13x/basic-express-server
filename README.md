@@ -6,7 +6,7 @@
 
 ### Problem Domain
 
-There really isn't fucking one, I don't know why I'm here
+This will be another basic server created to practice building a core, standards compliant Express server using best practices.
 
 ### Links and Resources
 
@@ -16,28 +16,35 @@ There really isn't fucking one, I don't know why I'm here
 
 ### Collaborators
 
-- Ryan Gallaway - showed me everything I know
+- Ryan Gallaway - showed me everything I know about this becuase before today, I've literally never seen any of this.
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-- PORT=6969 - for local host testing purposes
+- PORT=3001
 
 #### How to initialize/run your application (where applicable)
 
-- try blowing on it
+- create repo on GitHub
+- clone repo to local machine
+- `npm init -y`
+- `npm i`
+- `nodemon` or `node index.js` to start server
+
 
 #### How to use your library (where applicable)
 
 #### Features / Routes
 
-- Feature One: Building a basic express server using best practices, but most certainly not copying pre-existing code, becuause that is most certainly not good practice.
-- GET : `/hello` - specific route to hit
+- Feature One: Details of feature
+- GET : `/` - specific route to hit
+- GET : `/person` - expects aa query string with a name property
 
 #### Tests
 
 - How do you run tests?
+  - `npm test`
 - Any tests of note?
   - 404
   - 500
