@@ -2,9 +2,9 @@
 
 ## Project: basic-express-server
 
-### Author: Nomad
+### Author: Ryan Eastman
 
-### Problem Domain  
+### Problem Domain
 
 There really isn't fucking one, I don't know why I'm here
 
@@ -17,7 +17,6 @@ There really isn't fucking one, I don't know why I'm here
 ### Collaborators
 
 - Ryan Gallaway - showed me everything I know
-- Probably ChatGPT
 
 ### Setup
 
