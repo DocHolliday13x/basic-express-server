@@ -2,6 +2,8 @@
 
 // Imports
 const express = require('express');
+
+// Handlers - handlers for middleware
 const handle500 = require('./middleware/500.js');
 const handle404 = require('./middleware/404.js');
 const logger = require('./middleware/logger.js');
