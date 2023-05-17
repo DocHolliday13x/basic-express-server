@@ -10,13 +10,19 @@ This will be another basic server created to practice building a core, standards
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](https://github.com/rkgallaway/server-deployment-practice-d51/actions)
+- [GitHub Actions ci/cd](https://github.com/DocHolliday13x/basic-express-server/actions/new)
 - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable)
 
 ### Collaborators
 
 - Ryan Gallaway - showed me everything I know about this becuase before today, I've literally never seen any of this.
+
+- Reece Renninger - helped me with my ThunderClient testing
+
+- Nick Mullaney - helped me with my UML
+
+- Google - helped me with everything else
 
 ### Setup
 
@@ -44,15 +50,20 @@ This will be another basic server created to practice building a core, standards
 #### Tests
 
 - How do you run tests?
-  - `npm test`
+  - `nodemon`
+  - open thunder client
+  - enter url w/ query string
+  - hit send
 - Any tests of note?
-  - 404
-  - 500
+  - 200 status on a proper request
+  - 500 status on a bad request
+  - 404 status on a bad route
 - Describe any tests that you did not complete, skipped, etc
+  - I messed up due to unclear directions and created testing files for my logger and validator modules. I didn't have time to go back and fix it, so I left them up. But I achieved my desired output for my 200/404/500 thunder client requests.
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![lab02UML](/public/images/lab02UML.png)
 
 #### Resources
 
