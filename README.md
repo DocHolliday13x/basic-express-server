@@ -11,8 +11,8 @@ This will be another basic server created to practice building a core, standards
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/DocHolliday13x/basic-express-server/actions/new)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [back-end server url](https://basic-express-server-l72x.onrender.com/) (deployed on render)
+
 
 ### Collaborators
 
