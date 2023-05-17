@@ -53,3 +53,9 @@ This will be another basic server created to practice building a core, standards
 #### UML
 
 Link to an image of the UML for your application and response to events
+
+#### Resources
+
+- [The Software House](https://tsh.io/blog/node-js-logger/)
+- [Stack Overflow](https://stackoverflow.com/questions/38239943/difference-between-console-log-and-logger-log-in-node-js)
+- [NPM Logger](https://www.npmjs.com/package/logger)
