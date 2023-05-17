@@ -2,11 +2,11 @@
 
 // Validator middleware
 const validator = (req, res, next) => {
-  if(!req.query.name) {
-    next('Name Must Be Provided');
+  if(req.query.name === 'Ryan') {
+    next();
   }
   else {
-    next();
+    next('Query must be Ryan');
   }
 };
 

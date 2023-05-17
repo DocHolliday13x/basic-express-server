@@ -4,8 +4,8 @@
 const express = require('express');
 
 // Handlers - handlers for middleware
-const handle500 = require('./middleware/500.js');
-const handle404 = require('./middleware/404.js');
+const handle500 = require('./error-handlers/500.js');
+const handle404 = require('./error-handlers/404.js');
 const logger = require('./middleware/logger.js');
 const validator = require('./middleware/validator.js');
 
@@ -20,15 +20,16 @@ app.get('/', (req, res, next) => {
   res.status(200).send('Hello World');
 });
 
-app.use('*', handle404);
-app.use(handle500);
 
 // Routes
 app.get('/person', validator, (req, res, next) => {
-  const output = { name: req.query.name };
-  res.status(200).json(output);
+
+  res.status(200).send(req.query);
 });
 
+
+app.use('*', handle404);
+app.use(handle500);
 
 const start = (port) => app.listen(port, () => console.log(`Server up on port ${port}`));
 
